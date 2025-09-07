@@ -5,6 +5,12 @@ It is designed with a **flexible structure** and is especially suitable for begi
 
 ---
 
+## 🌐 Demo
+
+👉 [Live Demo Here](https://bagidea.github.io/three-webgpu-tsl-example)
+
+---
+
 ## 📸 Preview
 
 ![Preview](./preview.png)
