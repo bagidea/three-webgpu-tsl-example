@@ -3,7 +3,7 @@ import Loaders from "./loaders"
 import View from "./view"
 import TSLExample from "./tsl_example"
 import Environment from "./environment"
-import VolumetricFogArea from "./volumetric_fog_area"
+import PostProcessing from "./post_processing"
 
 class Game {
     private static instance: Game = null!
@@ -11,7 +11,7 @@ class Game {
     view: View = null!
     tsl_example: TSLExample = null!
     environment: Environment = null!
-    volumetric_fog_area: VolumetricFogArea = null!
+    postProcessing: PostProcessing = null!
 
     time: Time = null!
     loaders: Loaders = null!
@@ -37,8 +37,8 @@ class Game {
         // Environment init
         this.environment = new Environment()
 
-        // Volumetric Fog Area init
-        this.volumetric_fog_area = new VolumetricFogArea()
+        // PostProcrssing init
+        this.postProcessing = new PostProcessing()
     }
 }
 

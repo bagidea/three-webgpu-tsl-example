@@ -12,7 +12,7 @@ import { dof } from "three/examples/jsm/tsl/display/DepthOfFieldNode.js"
 
 import Game from "./game"
 
-class VolumetricFogArea {
+class PostProcessing {
     private game: Game = null!
     group: Group = null!
 
@@ -20,7 +20,7 @@ class VolumetricFogArea {
         this.game = new Game()
         this.group = new Group()
 
-        console.log("Volumetric Fog Aral initialized")
+        console.log("Post Processing initialized")
 
         this.create()
         this.game.view.scene.add(this.group)
@@ -46,4 +46,4 @@ class VolumetricFogArea {
     }
 }
 
-export default VolumetricFogArea
+export default PostProcessing
